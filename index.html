@@ -6,10 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego de memoria</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-
+    <main>
+        <section class="section-game">
+            <h1>Juego de memoria</h1>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="flip(0)">Test</button></td>
+                    <td><button id="1" onclick="flip(1)">Test</button></td>
+                    <td><button id="2" onclick="flip(2)">Test</button></td>
+                    <td><button id="3" onclick="flip(3)">Test</button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="flip(4)">Test</button></td>
+                    <td><button id="5" onclick="flip(5)">Test</button></td>
+                    <td><button id="6" onclick="flip(6)">Test</button></td>
+                    <td><button id="7" onclick="flip(7)">Test</button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="flip(8)">Test</button></td>
+                    <td><button id="9" onclick="flip(9)">Test</button></td>
+                    <td><button id="10" onclick="flip(10)">Test</button></td>
+                    <td><button id="11" onclick="flip(11)">Test</button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="flip(12)">Test</button></td>
+                    <td><button id="13" onclick="flip(13)">Test</button></td>
+                    <td><button id="14" onclick="flip(14)">Test</button></td>
+                    <td><button id="15" onclick="flip(15)">Test</button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section-board">
+            <div id="hits" class="statistics">Aciertos: 0</div>
+            <div id="time-remaining" class="statistics">Tiempo: 30 segundos</div>
+            <div id="movements" class="statistics">Movimientos: 0</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="date"></span> - <a href="https://github.com/andressaiyan92">Ing. Andrés Sevillano Molina.</a></p>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/game.js"></script>
 </body>
 
 </html>
