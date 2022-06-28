@@ -34,6 +34,7 @@ h1 {
     font-size: 40px;
     color: white;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .section-game button:hover {
@@ -92,4 +93,8 @@ a {
 .statistics button:hover {
     cursor: pointer;
     opacity: 0.8;
+}
+
+img{
+    width: 80%;
 }
